@@ -1,0 +1,58 @@
+/* Подключение эстетичного шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400&display=swap');
+
+:root {
+    --deep-sage: #2D4037;
+    --soft-gold: #C5A059;
+    --paper: #F9F7F2;
+    --text-dark: #333333;
+}
+
+body {
+    background-color: var(--paper);
+    color: var(--text-dark);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--deep-sage);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10%;
+}
+
+header {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 { font-size: 3.5rem; margin-bottom: 0; }
+
+button {
+    background: var(--deep-sage);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.article-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.article-content h3 {
+    color: var(--soft-gold);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
